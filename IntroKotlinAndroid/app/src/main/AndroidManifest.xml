@@ -25,6 +25,9 @@
             android:name=".NextActivity"
             android:parentActivityName=".MainActivity">
         </activity>
+        <activity
+            android:name=".GalleryActivity"
+            android:parentActivityName=".MainActivity" />
     </application>
 
 </manifest>

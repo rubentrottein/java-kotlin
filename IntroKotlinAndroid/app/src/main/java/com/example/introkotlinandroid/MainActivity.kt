@@ -25,27 +25,28 @@ class MainActivity : AppCompatActivity() {
             insets
         }
         //ids textView button
-        val myButton = findViewById<Button>(R.id.button)
+        val swap = findViewById<ImageView>(R.id.imageView)
+
+        val roll= findViewById<Button>(R.id.button)
+        val dice= findViewById<ImageView>(R.id.imageView2)
 
         val messageTextView = findViewById<TextView>(R.id.textView)
         val messageTextView2 = findViewById<TextView>(R.id.textView2)
         val messageTextView3 = findViewById<TextView>(R.id.textView3)
         val messageTextView4 = findViewById<TextView>(R.id.textView4)
 
-        myButton.setOnClickListener(View.OnClickListener {
-                val saveOne = messageTextView.text;
-                val save = messageTextView2.text;
+        swap.setOnClickListener(View.OnClickListener {
+                val saveOne = messageTextView.text
+                val save = messageTextView2.text
                 messageTextView.setText(save)
                 messageTextView2.setText(saveOne)
         })
-        println(messageTextView);
-        println(messageTextView2);
+        println(messageTextView)
+        println(messageTextView2)
 
-        val roll= findViewById<ImageView>(R.id.imageView)
-        val dice= findViewById<ImageView>(R.id.imageView2)
 
         roll.setOnClickListener(View.OnClickListener {
-            val number = Random.nextInt(from=0 ,until = 6);
+            val number = Random.nextInt(from=0 ,until = 6)
             val images = arrayOf(
                 R.drawable.one,
                 R.drawable.two,
@@ -53,21 +54,26 @@ class MainActivity : AppCompatActivity() {
                 R.drawable.four,
                 R.drawable.five,
                 R.drawable.six
-            );
+            )
             try{
-                dice.setImageResource(images[number]);
-                dice.setImageResource(R.drawable.six);
+                dice.setImageResource(images[number])
+                dice.setImageResource(images[number])
                 messageTextView4.setText("Image par OpenClipart-Vectors de Pixabay")
             } catch (e : Throwable ){
-                dice.setImageResource(R.drawable.three);
-                messageTextView3.setText(e.toString());
-                messageTextView3.setText(images[number]);
+                dice.setImageResource(R.drawable.three)
+                messageTextView3.setText(e.toString())
+                messageTextView3.setText(images[number])
             }
         })
 
         findViewById<ImageView>(R.id.next).setOnClickListener(View.OnClickListener {
             val intentNextActivity : Intent = Intent(this, NextActivity::class.java)
-            startActivity(intentNextActivity);
+            startActivity(intentNextActivity)
+        })
+
+        findViewById<ImageView>(R.id.imageButton).setOnClickListener(View.OnClickListener {
+            val intentGalleryActivity : Intent = Intent(this, GalleryActivity::class.java)
+            startActivity(intentGalleryActivity)
         })
     }
 }
