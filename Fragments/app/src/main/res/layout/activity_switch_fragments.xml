@@ -10,26 +10,13 @@
     <androidx.fragment.app.FragmentContainerView
         android:id="@+id/fragmentContainerView3"
         android:name="com.example.fragments.BlueFragment"
-        android:layout_width="414dp"
-        android:layout_height="373dp"
-        app:layout_constraintBottom_toBottomOf="@+id/fragmentContainerView4"
+        android:layout_width="390dp"
+        android:layout_height="782dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <androidx.fragment.app.FragmentContainerView
-        android:id="@+id/fragmentContainerView4"
-        android:name="com.example.fragments.RedFragment"
-        android:layout_width="416dp"
-        android:layout_height="356dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.4"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/red"
@@ -38,9 +25,10 @@
         android:text="Red"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.005"
+        app:layout_constraintHorizontal_bias="0.068"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/fragmentContainerView3" />
+        app:layout_constraintTop_toTopOf="@+id/fragmentContainerView3"
+        app:layout_constraintVertical_bias="0.95" />
 
     <Button
         android:id="@+id/blue"
@@ -48,10 +36,10 @@
         android:layout_height="65dp"
         android:layout_marginStart="55dp"
         android:text="Blue"
-        app:layout_constraintBottom_toBottomOf="@+id/fragmentContainerView4"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.91"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/fragmentContainerView3"
-        app:layout_constraintVertical_bias="0.498" />
+        app:layout_constraintVertical_bias="0.947" />
 </androidx.constraintlayout.widget.ConstraintLayout>

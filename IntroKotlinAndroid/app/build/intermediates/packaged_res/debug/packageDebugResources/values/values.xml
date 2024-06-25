@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <string name="app_name">Roll the Dice App</string>
+    <string name="gallery_name">Gallery</string>
+    <string name="sourceDice">Image par OpenClipart-Vectors de Pixabay</string>
+    <string name="sourceLeopard">Image par Angela de Pixabay</string>
+    <style name="Base.Theme.IntroKotlinAndroid" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.IntroKotlinAndroid" parent="Base.Theme.IntroKotlinAndroid"/>
+</resources>

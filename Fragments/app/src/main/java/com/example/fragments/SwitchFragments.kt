@@ -21,7 +21,8 @@ class SwitchFragments : AppCompatActivity() {
         var redOn = false;
         findViewById<Button>(R.id.red).setOnClickListener{
             redOn = true;
-            //val red = supportFragmentManager.getFragment(savedInstanceState?: Bundle?:: Bundle, "BlueFragment")
+            val red = fragmentManager.findFragmentByTag("RedFragment")
+            val blue = fragmentManager.findFragmentByTag("BlueFragment")
             supportFragmentManager.beginTransaction()
                 .replace(R.id.blueFragmentLayout, RedFragment()).commit()
             println(redOn)

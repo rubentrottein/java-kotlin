@@ -1,0 +1,126 @@
+[
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\layout_activity_next.xml.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\layout\\activity_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\drawable_six.png.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\drawable\\six.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.introkotlinandroid.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.example.introkotlinandroid.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\layout_activity_gallery.xml.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\layout\\activity_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\drawable_forrest.png.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\drawable\\forrest.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\drawable_one.png.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\drawable\\one.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\drawable_next.png.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\drawable\\next.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\drawable\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\drawable_four.png.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\drawable\\four.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.introkotlinandroid.app-debug-31:/layout_activity_gallery.xml.flat",
+        "source": "com.example.introkotlinandroid.app-main-33:/layout/activity_gallery.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\drawable_leopard.png.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\drawable\\leopard.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\drawable_five.png.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\drawable\\five.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "com.example.introkotlinandroid.app-debug-31:/layout_activity_next.xml.flat",
+        "source": "com.example.introkotlinandroid.app-main-33:/layout/activity_next.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\drawable_three.png.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\drawable\\three.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\drawable_two.png.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\drawable\\two.png"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-debug-31:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\Administrateur\\.gradle\\daemon\\8.6\\com.example.introkotlinandroid.app-main-33:\\mipmap-xhdpi\\ic_launcher.webp"
+    }
+]

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#25FDFDFD"
-    android:backgroundTint="#744697D7"
+    android:backgroundTint="@color/royalblue"
     android:backgroundTintMode="src_over"
     tools:context=".BlueFragment">
 
@@ -20,8 +20,8 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="389dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         android:src="@drawable/blue" />
 
 </FrameLayout>
