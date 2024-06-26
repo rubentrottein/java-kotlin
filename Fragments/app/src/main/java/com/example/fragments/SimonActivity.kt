@@ -37,16 +37,21 @@ class SimonActivity : AppCompatActivity() {
 
         //On associe tous les fragments et on leur donne leur listener onClick
 
-
+        findViewById<FrameLayout>(R.id.frameLayout).setOnClickListener {
+            findViewById<TextView>(R.id.number).setText(log(1))
+        }
+        findViewById<FrameLayout>(R.id.frameLayout2).setOnClickListener {
+            findViewById<TextView>(R.id.number).setText(log(2))
+        }
+        findViewById<FrameLayout>(R.id.frameLayout3).setOnClickListener {
+            findViewById<TextView>(R.id.number).setText(log(3))
+        }
+        findViewById<FrameLayout>(R.id.frameLayout4).setOnClickListener {
+            findViewById<TextView>(R.id.number).setText(log(4))
+        }
 
         for(i in 1..<5)
             activateFragment(i)
-
-
-
-
-
-
 
 
         /*
@@ -66,16 +71,15 @@ class SimonActivity : AppCompatActivity() {
         supportFragmentManager.beginTransaction().add(R.id.frameLayout3, GreenFragment()).commit()
         supportFragmentManager.beginTransaction().add(R.id.frameLayout4, YellowFragment()).commit()
 
-        findViewById<FrameLayout>(R.id.frameLayout).setOnClickListener { log(1)}
-        findViewById<FrameLayout>(R.id.frameLayout2).setOnClickListener { log(2)}
-        findViewById<FrameLayout>(R.id.frameLayout3).setOnClickListener { log(3)}
-        findViewById<FrameLayout>(R.id.frameLayout4).setOnClickListener { log(4)}
+
     }
 
 
 
-    private fun log(position: Int){
+    private fun log(position: Int): Int{
         soundSequence.add(position)
         println(soundSequence)
+        println(position)
+        return position
     }
 }
