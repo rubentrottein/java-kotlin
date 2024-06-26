@@ -28,10 +28,8 @@ class CyanFragment : Fragment() {
             val finalColor = R.color.royalblue
             val originalColor = R.color.cyan
             bg.setBackgroundColor(ContextCompat.getColor(requireContext(), finalColor))
-
             fun playSound() {
                 val resId = resources.getIdentifier("c", "raw", activity?.packageName)
-
                 val mediaPlayer = MediaPlayer.create(activity, resId)
                 mediaPlayer.start()
             }
@@ -41,6 +39,7 @@ class CyanFragment : Fragment() {
                 //this portion is run when the handler is completing 2 second of delay
                 bg.setBackgroundColor(ContextCompat.getColor(requireContext(), originalColor))
             }, 1000)
+
         }
 
         return view

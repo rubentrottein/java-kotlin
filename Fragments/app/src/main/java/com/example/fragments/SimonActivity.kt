@@ -1,6 +1,7 @@
 package com.example.fragments
 
 import android.content.Intent
+import android.media.MediaPlayer
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -29,63 +30,52 @@ class SimonActivity : AppCompatActivity() {
             insets
         }
 
-
         findViewById<TextView>(R.id.back).setOnClickListener {
             val nextActivity = Intent(this, MainActivity::class.java)
             startActivity(nextActivity)
         }
 
-        val count = 4;
-        var soundSequence : ArrayList<Int> = ArrayList()
-
-        activateFragments(soundSequence)
-
-        fun predef(count : Int){
-            //random liste de coups d'une longueur de (count) elements
-            val random = List(count) { Random.nextInt(0, 4)}
-            findViewById<TextView>(R.id.number).setText(random[0].toString())
-            println(random[0])
-        }
+        //On associe tous les fragments et on leur donne leur listener onClick
 
 
 
-        fun tourApp(level : Int) {
-            when (level) {
-                1 -> predef(count)
-                2 -> procedure(soundSequence)
-                else -> {
-                    println("Erreur dans le choix du niveau!!!")
-                }
+        for(i in 1..<5)
+            activateFragment(i)
+
+
+
+
+
+
+
+
+        /*
+        fun tourApp(level: Int) {
+            for(sound : soundSequence){
+                log(sound)
             }
-
-            tourApp(1)
-
-
         }
+        */
+    }
+    private var soundSequence : ArrayList<Int> = ArrayList()
+
+    private fun activateFragment(position : Int) {
+
+        supportFragmentManager.beginTransaction().add(R.id.frameLayout, PurpleFragment()).commit()
+        supportFragmentManager.beginTransaction().add(R.id.frameLayout2, CyanFragment()).commit()
+        supportFragmentManager.beginTransaction().add(R.id.frameLayout3, GreenFragment()).commit()
+        supportFragmentManager.beginTransaction().add(R.id.frameLayout4, YellowFragment()).commit()
+
+        findViewById<FrameLayout>(R.id.frameLayout).setOnClickListener { log(1)}
+        findViewById<FrameLayout>(R.id.frameLayout2).setOnClickListener { log(2)}
+        findViewById<FrameLayout>(R.id.frameLayout3).setOnClickListener { log(3)}
+        findViewById<FrameLayout>(R.id.frameLayout4).setOnClickListener { log(4)}
     }
 
-    private fun procedure(seq: ArrayList<Int>){
-        println(seq);
-    }
-    private fun activateFragments(soundSequence : ArrayList<Int>){
-        activateFragment(R.id.frameLayout, ClearFragment(), PurpleFragment(), soundSequence)
-        activateFragment(R.id.frameLayout2, ClearFragment(), CyanFragment(), soundSequence)
-        activateFragment(R.id.frameLayout3, ClearFragment(), GreenFragment(), soundSequence)
-        activateFragment(R.id.frameLayout4, ClearFragment(), YellowFragment(), soundSequence)
-    }
-    private fun activateFragment(layout : Int, endFragment : Fragment, startFragment : Fragment, soundSequence : ArrayList<Int>) {
-        findViewById<FrameLayout>(layout).setOnClickListener {
-            log(layout, endFragment, startFragment, soundSequence);
-        }
-    }
 
-    private fun log(layout : Int, endFragment : Fragment, startFragment : Fragment, soundSequence : ArrayList<Int>): ArrayList<Int>{
-        soundSequence.add(layout);
-        supportFragmentManager.beginTransaction().add(layout, endFragment).commit()
-        Handler(Looper.getMainLooper()).postDelayed({
-            supportFragmentManager.beginTransaction().add(layout, startFragment).commit()
-        }, 500)
 
-        return soundSequence
+    private fun log(position: Int){
+        soundSequence.add(position)
+        println(soundSequence)
     }
 }

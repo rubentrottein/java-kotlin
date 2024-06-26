@@ -2,21 +2,11 @@ package com.example.fragments
 
 import android.content.Intent
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
-import android.widget.FrameLayout
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
-import androidx.fragment.app.Fragment
-import com.example.fragments.simon_fragments.ClearFragment
-import com.example.fragments.simon_fragments.CyanFragment
-import com.example.fragments.simon_fragments.GreenFragment
-import com.example.fragments.simon_fragments.PurpleFragment
-import com.example.fragments.simon_fragments.YellowFragment
-import kotlin.random.Random
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
